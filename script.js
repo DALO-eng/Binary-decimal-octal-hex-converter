@@ -27,10 +27,9 @@ for (let input of inputs) {
   input.element.addEventListener("input", () => {
     const decimalNumber = parseInt(input.element.value, input.base);
     for (let numberInput of inputs) {
-      numberInput.element.value = numberConversion(
-        decimalNumber,
-        numberInput.base
-      );
+      numberInput.element.value = decimalNumber
+        ? numberConversion(decimalNumber, numberInput.base)
+        : "";
     }
   });
 }
