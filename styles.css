@@ -39,6 +39,28 @@ body {
   align-items: center;
 }
 
+.description {
+  font-size: 2rem;
+}
+
+.numberInput {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.numberInput label {
+  font-size: 1.2rem;
+}
+
+.numberInput input {
+  font-size: 1.5rem;
+  padding: 1rem;
+  margin: 1rem 0;
+  font-family: "Kanit", sans-serif;
+  border-radius: 1rem;
+}
+
 .footer {
   width: 100%;
   padding: 1rem;
